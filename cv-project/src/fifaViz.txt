@@ -1,0 +1,8 @@
+#fifa image analyzer 
+import numpy as np
+import cv2
+from matplotlib import pyplot as plt
+
+fifaorig = cv2.imread('../images/Post-match-stats.png')
+
+cv2.imshow(fifaorig)
